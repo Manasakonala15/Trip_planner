@@ -17,7 +17,7 @@ connectDB();
 
 app.use(
   cors({
-    origin: "https://trip-planner-six-mu.vercel.app/",
+    origin: "https://trip-planner-six-mu.vercel.app",
     credentials: true,
   })
 );
